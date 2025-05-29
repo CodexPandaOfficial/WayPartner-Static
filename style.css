@@ -298,10 +298,9 @@ h1, h2, h3, h4 {
     gap: var(--space-md);
 }
 
-.hero__image {
-    /* flex: 1; */
-/*     width: 300px;
-    height: 300px; */
+#hero-image{
+    height: 400px;
+    width: 400px;
 }
 
 /* ================ CARDS ================ */
