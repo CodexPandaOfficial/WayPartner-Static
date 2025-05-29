@@ -12,7 +12,7 @@
     --color-dark-bg: #202938;
     --color-warning: #facc15;
     --color-important: #a83800;
-    
+
     /* Spacing */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -20,7 +20,7 @@
     --space-lg: 2rem;
     --space-xl: 3rem;
     --space-xxl: 4rem;
-    
+
     /* Typography */
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Rubik', sans-serif;
@@ -30,18 +30,18 @@
     --text-lg: 1.5rem;
     --text-xl: 2rem;
     --text-xxl: 2.5rem;
-    
+
     /* Shadows */
-    --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
-    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-    --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-    
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
     /* Border radius */
     --radius-sm: 4px;
     --radius-md: 8px;
     --radius-lg: 12px;
     --radius-full: 9999px;
-    
+
     /* Transitions */
     --transition-fast: 0.15s ease;
     --transition-normal: 0.3s ease;
@@ -74,7 +74,8 @@ img {
     display: block;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -98,7 +99,10 @@ button {
 }
 
 /* ================ TYPOGRAPHY ================ */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--font-secondary);
     line-height: 1.2;
     font-weight: 700;
@@ -189,6 +193,7 @@ h1, h2, h3, h4 {
     padding: var(--space-sm) 30px;
     position: relative;
 }
+
 .navbar__logo {
     display: flex;
     align-items: center;
@@ -234,6 +239,7 @@ h1, h2, h3, h4 {
     z-index: 110;
     position: relative;
 }
+
 .navbar__hamburger-line {
     display: block;
     height: 2px;
@@ -298,7 +304,7 @@ h1, h2, h3, h4 {
     gap: var(--space-md);
 }
 
-#hero-image{
+#hero-image {
     height: 400px;
     width: 400px;
 }
@@ -456,7 +462,6 @@ h1, h2, h3, h4 {
 .notice__icon {
     width: 30px;
     height: 30px;
-    /* margin-right: 20px; */
 }
 
 .notice--important .notice__icon {
@@ -697,23 +702,28 @@ h1, h2, h3, h4 {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .hero__content {
         margin-bottom: var(--space-xl);
     }
-    
+
     .hero__buttons {
         justify-content: center;
     }
-    
+
     .cards-container {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .cards-arrow {
         transform: rotate(90deg);
         margin: var(--space-sm) 0;
+    }
+
+    .notice__text {
+        font-size: var(--text-sm);
+        margin-left: 30px;
     }
 }
 
@@ -732,45 +742,53 @@ h1, h2, h3, h4 {
         gap: var(--space-lg);
         transform: translateX(100%);
         transition: var(--transition-normal);
-        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         z-index: 100;
         padding: var(--space-xl);
     }
-    
+
     .navbar__items[data-visible="true"] {
         transform: translateX(0);
     }
-    
+
     .navbar__hamburger {
         display: flex;
     }
-    
+
     .navbar__download {
         display: none;
         /* margin-top: var(--space-lg); */
     }
-    
+
     .hero__buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .car-buttons {
         flex-direction: column;
     }
-    
+
     .footer__content {
         flex-direction: column;
         gap: var(--space-lg);
     }
+
     .navbar__close {
         display: none;
     }
-     .navbar_items[data-visible="true"] ~ .navbar_close {
+
+    .navbar_items[data-visible="true"]~.navbar_close {
         display: block;
     }
-    .navbar_items[data-visible="true"] ~ .navbar_hamburger {
+
+    .navbar_items[data-visible="true"]~.navbar_hamburger {
         display: none;
+    }
+
+    .notice__text {
+        font-size: var(--text-sm);
+        margin-left: 30px;
     }
 }
 
@@ -781,21 +799,26 @@ h1, h2, h3, h4 {
         --space-xl: 2rem;
         --space-xxl: 3rem;
     }
-    
+
     .section__title {
         font-size: var(--text-lg);
     }
-    
+
     .hero__title {
         font-size: var(--text-lg);
     }
-    
+
     .cta__title {
         font-size: var(--text-xl);
     }
-    
+
     .cta__buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .notice__text {
+        font-size: var(--text-sm);
+        margin-left: 30px;
     }
 }
