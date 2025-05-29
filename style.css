@@ -361,6 +361,8 @@ h4 {
 
 .cards-arrow {
     align-self: center;
+    height:30px;
+    width:40px;
 }
 
 /* Numbered cards */
