@@ -1,313 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WayPartner - Earn Green Coins by sharing rides and redeem for vehicle maintenance">
+    <title>WayPartner - Green Coins for Sustainable Travel</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/dollar.png" type="image/png">
 </head>
 
 <body>
-    <nav>
-        <div id="logo">
-            <img src="./images/dollar.png" alt="dollar" id="dollar">
-            <h1>WayPartner</h1>
-        </div>
-        <ul id="nav-items">
-            <li class="nav-item"><a href="#section2">Why Green Coins</a></li>
-            <li class="nav-item"><a href="#section3">How It Works</a></li>
-            <li class="nav-item"><a href="#section4">Redeem</a></li>
-            <li class="nav-item"><a href="#section5">Impact</a></li>
-        </ul>
-        <button id="download-btn">
-            <a href="#">Download App</a>
-        </button>
-        <div id="hamburger">
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-    </nav>
-
-    <section id="main">
-        <div id="intro">
-            <h1>
-                Green Coins - Drive Smart. Maintain Better. Save the Planet.
-            </h1>
-            <p>
-                Earn rewards for every shared kilometer. Save on servicing. Help the environment.
-            </p>
-            <div id="intro-btns">
-                <button class="btn">Download the App</button>
-                <button class="btn" id="btn-2">Start Earning Coins</button>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./images/dollar.png" alt="WayPartner logo" class="navbar__logo-icon">
+                <h1 class="navbar__logo-text">WayPartner</h1>
             </div>
-        </div>
-        <img src="./images/Banner.png" alt="Eco" id="banner-img">
-    </section>
-    <section id="section2">
-        <h1 id="sec2-head">
-            Why Green Coins?
-        </h1>
-        <p id="sec2-para">
-            Private vehicles waste fuel and pollute when traveling alone. WayPartner promotes way sharing and rewards
-            responsible travelers. Green Coins are eco-points you earn for every kilometer shared. use them for free
-            servicing.
-        </p>
-        <div id="why-cards">
-            <div class="cards">
-                <div class="why-img">
-                    <img src="./images/people.png" alt="Passengers">
-                </div>
-                <h2>WayMaster + Passengers</h2>
-                <p>Share your ride with others going the same way</p>
-            </div>
-            <img src="./images/arrow.png" alt="" height="30px" width="40px">
-            <div class="cards">
-                <div class="why-img">
-                    <img src="./images/car.png" alt="Car">
-                </div>
-                <h2>Fuel Saved</h2>
-                <p>Reduce consumption and environmental impact</p>
-            </div>
-            <img src="./images/arrow.png" alt="" height="30px" width="40px">
-            <div class="cards">
-                <div class="why-img">
-                    <img src="./images/dollar.png" alt="Green Coins">
-                </div>
-                <h2>Green Coins Earned</h2>
-                <p>Get rewarded with ₹1 per kilometer shared</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="section3">
-        <h1 id="sec3-head">
-            How It Works?
-        </h1>
-        <div id="how-cards">
-            <div class="cards">
-                <div class="numbering">
-                    1
-                </div>
-                <div class="how-img">
-                    <img src="./images/time.png" alt="time">
-                </div>
-                <h2>
-                    Share Your Trip
-                </h2>
-                <p>
-                    Offer rides to people going your way
-                </p>
-            </div>
-            <div class="cards">
-                <div class="numbering">
-                    2
-                </div>
-                <div class="how-img">
-                    <img src="./images/dollar.png" alt="">
-                </div>
-                <h2>Earn ₹1/km</h2>
-                <p>Get Green Coins for every shared kilometer</p>
-            </div>
-            <div class="cards">
-                <div class="numbering">
-                    3
-                </div>
-                <div class="how-img">
-                    <img src="./images/vault.png" alt="">
-                </div>
-                <h2>Coins go to vault</h2>
-                <p>Accumulate coins in your digital wallet</p>
-            </div>
-            <div class="cards">
-                <div class="numbering">
-                    4
-                </div>
-                <div class="how-img">
-                    <img src="./images/coupon.png" alt="">
-                </div>
-                <h2>Redeem for Service</h2>
-                <p>Use coins for vehicle maintenance</p>
-            </div>
-        </div>
-
-        <div id="warning-con">
-            <img src="./images/iwarning.png" alt="">
-            <p>Only shared trips are eligible. Coins are not for cash. Maintenance only.</p>
-        </div>
-
-    </section>
-
-    <section id="section4">
-        <h1 id="sec4-head">
-            Redeem Coins for Maintenance
-        </h1>
-
-        <div id="containers">
-            <div class="redeem-con">
-                <div class="redeem-head">
-                    <img src="./images/play.png" alt="play">
-                    <h2>Bikes - Every 1500 km</h2>
-                </div>
-                <ul>
-                    <li class="slist-item">Engine oil replacement</li>
-                    <li class="slist-item">Brake check</li>
-                    <li class="slist-item">Chain lubrication</li>
-                    <li class="slist-item">Electrical check</li>
-                    <li class="slist-item">Tyre inspection</li>
-                    <li class="slist-item">Water wash</li>
-                </ul>
-            </div>
-            <div class="redeem-con">
-                <div class="redeem-head">
-                    <img src="./images/car.png" alt="cars">
-                    <h2>Cars</h2>
-                </div>
-                <div id="carbtns-con">
-                    <button class="car-btns" id="sedan-btn">Hatchback/Sedan<br>6000 km</button>
-                    <button class="car-btns" id="suv-btn">SUV<br>7500 km</button>
-                    <button class="car-btns" id="premium-btn">Premium<br>8500 km</button>
-                </div>
-                <ul id="sedan-list">
-                    <li class="slist-item">Engine oil & filter change</li>
-                    <li class="slist-item">Brake fluid check</li>
-                    <li class="slist-item">Air filter cleaning</li>
-                    <li class="slist-item">Battery & electrical check</li>
-                    <li class="slist-item">Tyre rotation & pressure check</li>
-                    <li class="slist-item">Exterior wash & interior vaccum</li>
-                </ul>
-                <ul id="suv-list">
-                    <li class="slist-item">Premium engine oil & filter change</li>
-                    <li class="slist-item">Brake system inspection</li>
-                    <li class="slist-item">Air & cabin filter replacement</li>
-                    <li class="slist-item">Suspension check</li>
-                    <li class="slist-item">Tyre rotation & alignment check</li>
-                    <li class="slist-item">Full exterior & interior detailing</li>
-                </ul>
-                <ul id="premium-list">
-                    <li class="slist-item">Synthetic engine oil & filter change</li>
-                    <li class="slist-item">Complete brake system service</li>
-                    <li class="slist-item">Premium filters replacement</li>
-                    <li class="slist-item">Cooling system inspection</li>
-                    <li class="slist-item">Full suspension & steering check</li>
-                    <li class="slist-item">Wheel alignment & balancing</li>
-                    <li class="slist-item">Premium detailing with wax coating</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="section5">
-
-        <h1 id="sec5-head">
-            Your Ride, Our Future
-        </h1>
-
-        <p>Green Coins help reduce pollution, traffic, and fuel waste. Be part of the solution.</p>
-
-        <div id="how-cards">
-            <div class="cards">
-                <div class="how-img">
-                    <img src="./images/dollar.png" alt="time">
-                </div>
-                <h2>
-                    1 Green Coin
-                </h2>
-                <p>
-                    = 1km shared
-                </p>
-            </div>
-            <div class="cards">
-                <div class="how-img">
-                    <img src="./images/files.png" alt="">
-                </div>
-                <h2>1.5 Lakh+</h2>
-                <p>liters fuel saved</p>
-            </div>
-            <div class="cards">
-                <div class="how-img">
-                    <img src="./images/search.png" alt="">
-                </div>
-                <h2>10K+</h2>
-                <p>vehicles maintained</p>
-            </div>
-            <div class="cards">
-                <div class="how-img">
-                    <img src="./images/cloud.png" alt="">
-                </div>
-                <h2>Cleaner air</h2>
-                <p>for all</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="section6">
-        <h1 id="sec6-head">
-            Green Coin Guidelines
-        </h1>
-        <div id="guide-con">
-            <div id="warn-con">
-                <img src="./images/warning.png" id="warnimg" alt="warning">
-                <p>Please read these guidelines carefully before using Green Coins.</p>
-            </div>
-            <ul id="guide-list">
-                <li class="slist-item">Only for shared trips</li>
-                <li class="slist-item">Can't be converted to cash</li>
-                <li class="slist-item">Valid only in partner garages</li>
-                <li class="slist-item">Max 1500 km per cycle</li>
-                <li class="slist-item">Misuse leads to penalty</li>
+            
+            <ul class="navbar__items" id="navItems">
+                <li class="navbar__item"><a href="#section2" class="navbar__link">Why Green Coins</a></li>
+                <li class="navbar__item"><a href="#section3" class="navbar__link">How It Works</a></li>
+                <li class="navbar__item"><a href="#section4" class="navbar__link">Redeem</a></li>
+                <li class="navbar__item"><a href="#section5" class="navbar__link">Impact</a></li>
             </ul>
-        </div>
-    </section>
+            
+            <button class="button button--primary navbar__download" id="downloadBtn">
+                Download App
+            </button>
+            
+            <button class="navbar__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                <span class="navbar__hamburger-line"></span>
+                <span class="navbar__hamburger-line"></span>
+                <span class="navbar__hamburger-line"></span>
+            </button>
+            
+            <button class="navbar__close" id="closeBtn" aria-label="Close menu">
+                &times;
+            </button>
+        </nav>
+    </header>
 
-    <section id="section7">
-        <h1 id="sec7-head">Ride. Share. Earn. Maintain.</h1>
-        <p>Start earning Green Coins today and take care of you vehicle the smart way.</p>
-        <div id="sec7-btns">
-            <button class="sec7-btn" id="join-btn">Join WayPartner</button>
-            <button class="sec7-btn" id="open-btn">Open App Now</button>
-        </div>
-    </section>
-
-    <footer>
-        <div id="footer-con">
-            <div id="footer-text">
-                <h3>WayPartner</h3>
-                <p>Making travel greener, one kilometer at a time.</p>
-            </div>
-            <div>
-                <h3>Quick Links</h3>
-                <a href="#">About Us</a>
-                <a href="#">How It Works</a>
-                <a href="#">Partner Garages</a>
-                <a href="#">Support</a>
-            </div>
-            <div>
-                <h3>Legal</h3>
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cookie Policy</a>
-            </div>
-            <div>
-                <h3>Download App</h3>
-                <div class="footer-icons">
-                    <img src="./images/download.png" alt="download">
-                </div>
-                <div class="footer-icons">
-                    <img src="./images/mobile.png" alt="mobile">
+    <main>
+        <section class="hero" id="main">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Green Coins - Drive Smart. Maintain Better. Save the Planet.
+                </h1>
+                <p class="hero__subtitle">
+                    Earn rewards for every shared kilometer. Save on servicing. Help the environment.
+                </p>
+                <div class="hero__buttons">
+                    <button class="button button--primary">Download the App</button>
+                    <button class="button button--secondary">Start Earning Coins</button>
                 </div>
             </div>
+            <img src="./images/Banner.png" alt="People sharing a ride" class="hero__image">
+        </section>
+
+        <section class="section section--light" id="section2">
+            <div class="container">
+                <h2 class="section__title">Why Green Coins?</h2>
+                <p class="section__description">
+                    Private vehicles waste fuel and pollute when traveling alone. WayPartner promotes way sharing and rewards
+                    responsible travelers. Green Coins are eco-points you earn for every kilometer shared. Use them for free
+                    servicing.
+                </p>
+                
+                <div class="cards-container">
+                    <div class="card" style="background-color: #e4fcf4;">
+                        <div class="card__icon">
+                            <img src="./images/people.png" alt="Passengers" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">WayMaster + Passengers</h3>
+                        <p class="card__text">Share your ride with others going the same way</p>
+                    </div>
+                    
+                    <img src="./images/arrow.png" alt="" class="cards-arrow" aria-hidden="true">
+                    
+                    <div class="card" style="background-color: #e4fcf4;">
+                        <div class="card__icon">
+                            <img src="./images/car.png" alt="Car" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Fuel Saved</h3>
+                        <p class="card__text">Reduce consumption and environmental impact</p>
+                    </div>
+                    
+                    <img src="./images/arrow.png" alt="" class="cards-arrow" aria-hidden="true">
+                    
+                    <div class="card" style="background-color: #e4fcf4;">
+                        <div class="card__icon">
+                            <img src="./images/dollar.png" alt="Green Coins" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Green Coins Earned</h3>
+                        <p class="card__text">Get rewarded with ₹1 per kilometer shared</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--green" id="section3">
+            <div class="container">
+                <h2 class="section__title">How It Works?</h2>
+                
+                <div class="cards-container cards-container--numbered">
+                    <div class="card card--numbered">
+                        <div class="card__number">1</div>
+                        <div class="card__icon">
+                            <img src="./images/time.png" alt="Clock icon" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Share Your Trip</h3>
+                        <p class="card__text">Offer rides to people going your way</p>
+                    </div>
+                    
+                    <div class="card card--numbered">
+                        <div class="card__number">2</div>
+                        <div class="card__icon">
+                            <img src="./images/dollar.png" alt="Dollar icon" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Earn ₹1/km</h3>
+                        <p class="card__text">Get Green Coins for every shared kilometer</p>
+                    </div>
+                    
+                    <div class="card card--numbered">
+                        <div class="card__number">3</div>
+                        <div class="card__icon">
+                            <img src="./images/vault.png" alt="Vault icon" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Coins go to vault</h3>
+                        <p class="card__text">Accumulate coins in your digital wallet</p>
+                    </div>
+                    
+                    <div class="card card--numbered">
+                        <div class="card__number">4</div>
+                        <div class="card__icon">
+                            <img src="./images/coupon.png" alt="Coupon icon" class="card__icon-img">
+                        </div>
+                        <h3 class="card__title">Redeem for Service</h3>
+                        <p class="card__text">Use coins for vehicle maintenance</p>
+                    </div>
+                </div>
+                
+                <div class="notice notice--warning">
+                    <img src="./images/iwarning.png" alt="Warning icon" class="notice__icon">
+                    <p class="notice__text">Only shared trips are eligible. Coins are not for cash. Maintenance only.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section4">
+            <div class="container">
+                <h2 class="section__title">Redeem Coins for Maintenance</h2>
+                
+                <div class="redeem-container">
+                    <div class="redeem-card">
+                        <div class="redeem-card__header">
+                            <img src="./images/play.png" alt="Bike icon" class="redeem-card__icon">
+                            <h3 class="redeem-card__title">Bikes - Every 1500 km</h3>
+                        </div>
+                        <ul class="redeem-card__list">
+                            <li class="redeem-card__item">Engine oil replacement</li>
+                            <li class="redeem-card__item">Brake check</li>
+                            <li class="redeem-card__item">Chain lubrication</li>
+                            <li class="redeem-card__item">Electrical check</li>
+                            <li class="redeem-card__item">Tyre inspection</li>
+                            <li class="redeem-card__item">Water wash</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="redeem-card">
+                        <div class="redeem-card__header">
+                            <img src="./images/car.png" alt="Car icon" class="redeem-card__icon">
+                            <h3 class="redeem-card__title">Cars</h3>
+                        </div>
+                        
+                        <div class="car-buttons">
+                            <button class="car-button car-button--active" data-target="sedan">Hatchback/Sedan<br>6000 km</button>
+                            <button class="car-button" data-target="suv">SUV<br>7500 km</button>
+                            <button class="car-button" data-target="premium">Premium<br>8500 km</button>
+                        </div>
+                        
+                        <ul class="redeem-card__list" id="sedan-list">
+                            <li class="redeem-card__item">Engine oil & filter change</li>
+                            <li class="redeem-card__item">Brake fluid check</li>
+                            <li class="redeem-card__item">Air filter cleaning</li>
+                            <li class="redeem-card__item">Battery & electrical check</li>
+                            <li class="redeem-card__item">Tyre rotation & pressure check</li>
+                            <li class="redeem-card__item">Exterior wash & interior vaccum</li>
+                        </ul>
+                        
+                        <ul class="redeem-card__list" id="suv-list" hidden>
+                            <li class="redeem-card__item">Premium engine oil & filter change</li>
+                            <li class="redeem-card__item">Brake system inspection</li>
+                            <li class="redeem-card__item">Air & cabin filter replacement</li>
+                            <li class="redeem-card__item">Suspension check</li>
+                            <li class="redeem-card__item">Tyre rotation & alignment check</li>
+                            <li class="redeem-card__item">Full exterior & interior detailing</li>
+                        </ul>
+                        
+                        <ul class="redeem-card__list" id="premium-list" hidden>
+                            <li class="redeem-card__item">Synthetic engine oil & filter change</li>
+                            <li class="redeem-card__item">Complete brake system service</li>
+                            <li class="redeem-card__item">Premium filters replacement</li>
+                            <li class="redeem-card__item">Cooling system inspection</li>
+                            <li class="redeem-card__item">Full suspension & steering check</li>
+                            <li class="redeem-card__item">Wheel alignment & balancing</li>
+                            <li class="redeem-card__item">Premium detailing with wax coating</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--green" id="section5">
+            <div class="container">
+                <h2 class="section__title">Your Ride, Our Future</h2>
+                <p class="section__description">Green Coins help reduce pollution, traffic, and fuel waste. Be part of the solution.</p>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-card__icon">
+                            <img src="./images/dollar.png" alt="Dollar icon" class="stat-card__icon-img">
+                        </div>
+                        <h3 class="stat-card__title">1 Green Coin</h3>
+                        <p class="stat-card__text">= 1km shared</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-card__icon">
+                            <img src="./images/files.png" alt="Files icon" class="stat-card__icon-img">
+                        </div>
+                        <h3 class="stat-card__title">1.5 Lakh+</h3>
+                        <p class="stat-card__text">liters fuel saved</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-card__icon">
+                            <img src="./images/search.png" alt="Search icon" class="stat-card__icon-img">
+                        </div>
+                        <h3 class="stat-card__title">10K+</h3>
+                        <p class="stat-card__text">vehicles maintained</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-card__icon">
+                            <img src="./images/cloud.png" alt="Cloud icon" class="stat-card__icon-img">
+                        </div>
+                        <h3 class="stat-card__title">Cleaner air</h3>
+                        <p class="stat-card__text">for all</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section6">
+            <div class="container">
+                <h2 class="section__title">Green Coin Guidelines</h2>
+                
+                <div class="notice notice--important">
+                    <img src="./images/warning.png" alt="Important warning" class="notice__icon">
+                    <p class="notice__text">Please read these guidelines carefully before using Green Coins.</p>
+                </div>
+                
+                <ul class="guidelines-list">
+                    <li class="guidelines-list__item">Only for shared trips</li>
+                    <li class="guidelines-list__item">Can't be converted to cash</li>
+                    <li class="guidelines-list__item">Valid only in partner garages</li>
+                    <li class="guidelines-list__item">Max 1500 km per cycle</li>
+                    <li class="guidelines-list__item">Misuse leads to penalty</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta" id="section7">
+            <div class="container">
+                <h2 class="cta__title">Ride. Share. Earn. Maintain.</h2>
+                <p class="cta__text">Start earning Green Coins today and take care of your vehicle the smart way.</p>
+                
+                <div class="cta__buttons">
+                    <button class="button button--white">Join WayPartner</button>
+                    <button class="button button--outline-white">Open App Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__column">
+                    <h3 class="footer__title">WayPartner</h3>
+                    <p class="footer__text">Making travel greener, one kilometer at a time.</p>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">How It Works</a></li>
+                        <li><a href="#" class="footer__link">Partner Garages</a></li>
+                        <li><a href="#" class="footer__link">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Legal</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Terms of Service</a></li>
+                        <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer__link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Download App</h3>
+                    <div class="footer__app-buttons">
+                        <button class="footer__app-button">
+                            <img src="./images/download.png" alt="Download icon" class="footer__app-icon">
+                        </button>
+                        <button class="footer__app-button">
+                            <img src="./images/mobile.png" alt="Mobile icon" class="footer__app-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer__divider">
+            
+            <p class="footer__copyright">
+                &copy; 2023 WayPartner. All rights reserved.
+            </p>
         </div>
-        <hr>
-        <p id="copyright">
-            &copy; 2023 WayPartner. All rights reserved.
-        </p>
     </footer>
-    <script src="script.js"></script>
-</body>
 
+    <script src="script.js" defer></script>
+</body>
 </html>
