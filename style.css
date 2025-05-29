@@ -299,9 +299,9 @@ h1, h2, h3, h4 {
 }
 
 .hero__image {
-    flex: 1;
-    width: 200px;
-    height: auto;
+    /* flex: 1; */
+    width: 300px;
+    height: 300px;
 }
 
 /* ================ CARDS ================ */
